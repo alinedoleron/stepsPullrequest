@@ -1,4 +1,4 @@
-#### Steps to make a Pull request
+### Steps to make a Pull request
 
 1. check_sf *file*
 2. git checkout -b *novaissue*
@@ -10,8 +10,7 @@
 8. Copy URL that will be opened on browser
 9. Put url on On JIRA
 
-#### Steps Ant all
-
+### Steps Ant all
 Cd/workspace/liferay-portal
 1- Git checkout master / 
 2- git pull upstream master / 
@@ -20,12 +19,12 @@ Cd/workspace/liferay-portal
 5-ant all /  
 
 
-### No subrepo (com.dynamic...)
+#### No subrepo (com.dynamic...)
 Cd/workspace/com.dynamic...
 1- git checkout master
 2- git push origin master
 3- git checkout -b issue (ex: LPS-75844) 
 
-### Na pasta onde vou trabalhar
+#### Na pasta onde vou trabalhar
 Ex: cd/worspace/com.dyna.../dynamic-data-form-builder
 1- /Users/aline/workspace/liferay-portal/gradlew clean deploy
