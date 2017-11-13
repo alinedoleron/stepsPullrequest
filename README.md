@@ -12,11 +12,11 @@
 
 ### Steps Ant all
 Cd/workspace/liferay-portal
-1. Git checkout master / 
-2. git pull upstream master / 
-3. git push origin master / 
-4. desligar Catalina / 
-5. ant all /  
+1. Git checkout master 
+2. git pull upstream master
+3. git push origin master  
+4. desligar Catalina 
+5. ant all
 
 
 #### No subrepo (com.dynamic...)
