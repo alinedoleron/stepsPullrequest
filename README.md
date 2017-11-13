@@ -12,19 +12,20 @@
 
 ### Steps Ant all
 Cd/workspace/liferay-portal
-1- Git checkout master / 
-2- git pull upstream master / 
-3-git push origin master / 
-4-desligar Catalina / 
-5-ant all /  
+1. Git checkout master / 
+2. git pull upstream master / 
+3. git push origin master / 
+4. desligar Catalina / 
+5. ant all /  
 
 
 #### No subrepo (com.dynamic...)
 Cd/workspace/com.dynamic...
-1- git checkout master
-2- git push origin master
-3- git checkout -b issue (ex: LPS-75844) 
+1. git checkout master
+2. git push origin master
+3. git checkout -b issue (ex: LPS-75844) 
 
 #### Na pasta onde vou trabalhar
 Ex: cd/worspace/com.dyna.../dynamic-data-form-builder
-1- /Users/aline/workspace/liferay-portal/gradlew clean deploy
+1. Ligar catalina
+2. /Users/aline/workspace/liferay-portal/gradlew clean deploy
