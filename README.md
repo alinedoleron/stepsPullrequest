@@ -29,3 +29,8 @@ Cd/workspace/com.dynamic...
 Ex: cd/worspace/com.dyna.../dynamic-data-form-builder
 1. Ligar catalina
 2. /Users/aline/workspace/liferay-portal/gradlew clean deploy
+
+## Desligar catalina
+Na pasta /Users/aline/workspace/bundles/liferay-portal/tomcat-8.0.32/bin
+1.  ps aux | grep java
+2. kill -9 35081
