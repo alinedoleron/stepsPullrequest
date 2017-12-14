@@ -6,7 +6,7 @@
 4. Press commit
 5. Add a comment: *issue* + comments
 6. git pull --rebase upstream master
-7. git push -f origin <branch name>
+7. git push -f origin [branch name]
 8. gh pr --submit liferay
 9. Copy URL that will be opened on browser
 10. Put url on On JIRA
