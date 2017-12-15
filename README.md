@@ -34,4 +34,4 @@ Ex: cd/worspace/com.dyna.../dynamic-data-form-builder
 ## Desligar catalina
 Na pasta /Users/aline/workspace/bundles/liferay-portal/tomcat-8.0.32/bin
 1.  ps aux | grep java
-2. kill -9 35081
+2. kill -9 [proccess-number]
