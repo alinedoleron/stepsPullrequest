@@ -1,17 +1,17 @@
 ### Steps to make a Pull request
 
 0. gw formatSource na pasta que sofreu as alterações
-   mcritic src (para checar os arquivos soy)
-1. check_sf *file*
-2. git checkout -b *novaissue*
-3. Send files to staging area on Sourcetree
-4. Press commit
-5. Add a comment: *issue* + comments
-6. git pull --rebase upstream master
-7. git push -f origin [branch name]
-8. gh pr --submit liferay
-9. Copy URL that will be opened on browser
-10. Put url on On JIRA
+1. mcritic src (para checar os arquivos soy)
+2. check_sf *file*
+3. git checkout -b *novaissue*
+4. Send files to staging area on Sourcetree
+5. Press commit
+6. Add a comment: *issue* + comments
+7. git pull --rebase upstream master
+8. git push -f origin [branch name]
+9. gh pr --submit liferay
+10. Copy URL that will be opened on browser
+11. Put url on On JIRA
 
 ### Steps Ant all
 Cd/workspace/liferay-portal
