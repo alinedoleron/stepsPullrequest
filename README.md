@@ -1,6 +1,7 @@
 ### Steps to make a Pull request
 
 0. gw formatSource na pasta que sofreu as alterações
+   mcritic src (para checar os arquivos soy)
 1. check_sf *file*
 2. git checkout -b *novaissue*
 3. Send files to staging area on Sourcetree
