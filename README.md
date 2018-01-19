@@ -13,13 +13,20 @@
 10. Copy URL that will be opened on browser
 11. Put url on On JIRA
 
-### Steps Ant all
-Cd/workspace/liferay-portal
+### Steps Ant all 1-2
+Na pasta bundles
+1. rm -rf liferay-portal
+
+# drop tables do liferay-portal
+
+### Steps Ant all 2-2
+Na pasta Cd/workspace/portal-master/liferay-portal
 1. Git checkout master 
-2. git pull upstream master
-3. git push origin master  
-4. desligar Catalina 
-5. ant all
+2. git clean -fdx
+3. git pull upstream master
+4. git push origin master  
+5. desligar Catalina 
+6. ant all
 
 
 #### No subrepo (com.dynamic...)
