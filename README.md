@@ -17,7 +17,7 @@
 Na pasta bundles
 1. rm -rf liferay-portal
 
-# drop tables do liferay-portal
+#### drop tables do liferay-portal
 
 ### Steps Ant all 2-2
 Na pasta Cd/workspace/portal-master/liferay-portal
