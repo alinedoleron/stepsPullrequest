@@ -13,27 +13,20 @@
 10. Copy URL that will be opened on browser
 11. Put url on On JIRA
 
-### Steps Ant all 1-2
-Na pasta bundles
-1. rm -rf liferay-portal
+### Pegar PR de outros usuários
+gh pr -u username #numerodoPR
 
-#### drop tables do liferay-portal
-
-### Steps Ant all 2-2
+### Steps Ant all
 Na pasta Cd/workspace/portal-master/liferay-portal
 1. Git checkout master 
-2. git clean -fdx
-3. git pull upstream master
-4. git push origin master  
-5. desligar Catalina 
-6. ant all
-
-
-#### No subrepo (com.dynamic...)
-Cd/workspace/com.dynamic...
-1. git checkout master
-2. git push origin master
-3. git checkout -b issue (ex: LPS-75844) 
+2. git pull upstream master
+3. git push origin master 
+4. Deletar pasta liferay-portal do bundles
+5. Adicionar arquivos de configuração
+6. Limpar as tabelas do lportal
+7. Rodar: git reset --hard HEAD
+8. desligar Catalina 
+9. ant all
 
 #### Na pasta onde vou trabalhar
 Ex: cd/worspace/com.dyna.../dynamic-data-form-builder
@@ -44,3 +37,6 @@ Ex: cd/worspace/com.dyna.../dynamic-data-form-builder
 Na pasta /Users/aline/workspace/bundles/liferay-portal/tomcat-8.0.32/bin
 1.  ps aux | grep java
 2. kill -9 [proccess-number]
+
+## Start do mySql
+Mysql.server start
